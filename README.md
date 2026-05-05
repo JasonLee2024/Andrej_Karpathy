@@ -60,4 +60,44 @@ Andrej Karpathy，AI 科学家、教育者。曾任 OpenAI 研究科学家、Tes
 
 ---
 
+## 目录结构
+
+```
+Andrej_Karpathy/
+├── README.md              ← 首页导航 + 最近动态一览
+├── _config.yml            ← GitHub Pages 配置
+├── timeline.md            ← 综合时间线（2024-2026）
+├── profile/
+│   ├── bio.md             ← 履历：Stanford → OpenAI → Tesla → Eureka Labs
+│   └── projects-index.md  ← 63 仓库的索引表
+├── projects/
+│   ├── nanoGPT.md         ← GPT-2 教学标杆（47K stars）
+│   ├── nanochat.md        ← "$100 ChatGPT"（53K stars）
+│   ├── autoresearch.md    ← AI 自动做 AI 研究（79K stars）
+│   ├── LLM.c.md           ← 纯 C 语言 LLM
+│   ├── micrograd.md       ← 100 行自动求导
+│   ├── rustbpe.md         ← Rust BPE tokenizer
+│   ├── hn-time-capsule.md ← LLM 考古 HN
+│   └── us-job-market.md   ← BLS 数据可视化
+├── talks/
+│   ├── 2025-YC-AI-Startup-School.md  ← "Software in AI Era"（1481 pts）
+│   ├── 2025-Dwarkesh-Podcast.md       ← "10 years to solve Agents"
+│   └── 2025-never-felt-behind.md      ← HN 549 pts 热帖
+├── social/                ← X/Twitter 观点精选
+├── community/             ← 社区衍生项目
+├── blog/                  ← 博客摘要
+└── scripts/
+    └── update.sh          ← 自动拉取 GitHub/HN/X 的最新动态
+```
+
+共 **27 个文件，744 行**。全部是 Obsidian 兼容的 Markdown（`[[wikilink]]` 双向链接）。
+
+### 说明
+
+1. **知识库是活的** — `scripts/update.sh` 每周拉一次 GitHub Events、HN Algolia API 获取最新动态
+2. **Obsidian 友好** — 所有文件有 `date:` 前注，支持 `[[双链]]` 互相引用
+3. **时间线是中心入口** — `timeline.md` 聚合所有事件，按年季度排列
+
+---
+
 *本知识库由 [[Hermes Agent]] 自动维护，内容持续更新。*
