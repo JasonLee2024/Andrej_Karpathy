@@ -104,5 +104,5 @@ Andrej_Karpathy/
 
 ---
 
-> **在线阅读：** [https://jasonlee2024.github.io/Andrej_Karpathy/](https://jasonlee2024.github.io/Andrej_Karpathy/) — 知识库 GitHub Pages 站点
+> **在线阅读：** [https://jasonlee2024.github.io/Andrej_Karpathy/](https://jasonlee2024.github.io/Andrej_Karpathy/) — 知识库 GitHub Pages 站点  
 > **GitHub 仓库：** [github.com/JasonLee2024/Andrej_Karpathy](https://github.com/JasonLee2024/Andrej_Karpathy) — 欢迎 Star、Issue 和 PR
