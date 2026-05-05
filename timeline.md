@@ -21,7 +21,8 @@ tags: [index, timeline]
 | 2026-04-14 | [[nanochat]] 发布 → 53K stars | project | [[projects/nanochat]] |
 | 2026-04-24 | "How LLMs Work" 视觉指南 | community | [[community/hn-llm-visual-guide]] |
 | 2026-04-25 | Karpathy-style LLM Wiki (260 pts) | community | [[community/karpathy-llm-wiki]] |
-| 2026-04-28 | Auto-Architecture: Karpathy's Loop (240 pts) | community | [[community/auto-architecture-cpu]] |
+|| 2026-04-28 | Auto-Architecture: Karpathy's Loop (240 pts) | community | [[community/auto-architecture-cpu]] |
+|| 2026-04-29 | Sequoia AI Ascent 2026 — 从 Vibe Coding 到 Agentic Engineering | talk | [[talks/2026-sequoia-ai-ascent-agentic-engineering]] |
 
 ## 2025
 
