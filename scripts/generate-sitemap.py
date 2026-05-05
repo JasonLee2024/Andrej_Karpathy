@@ -243,8 +243,14 @@ def replace_tree_in_readme(readme_path: Path, new_tree: str, stats: dict) -> boo
     if old_section:
         new_content = content.replace(old_section.group(0), new_section)
     else:
-        print("⚠️  找不到 README 中的 `## 目录结构` 部分，跳过更新")
-        return False
+        # Auto-append before the last horizontal rule or at end of file
+        appendix = f"\n\n---\n\n## 目录结构\n\n```\n{new_tree}\n```\n\n共 **{stats['files']} 个文件，{stats['lines']} 行**。全部是 Obsidian 兼容的 Markdown（`[[wikilink]]` 双向链接）。"
+        hr_match = list(re.finditer(r"\n---\n", content))
+        if hr_match:
+            insert_pos = hr_match[-1].start() + 1
+            new_content = content[:insert_pos] + appendix + content[insert_pos:]
+        else:
+            new_content = content + appendix
 
     if new_content != content:
         readme_path.write_text(new_content, encoding="utf-8")
@@ -314,6 +320,7 @@ def main():
 
     # Write sitemap.md (as a separate page)
     sitemap = build_sitemap_md(kb_root, tree, stats)
+    sitemap_path = kb_root / "sitemap.md"
     sitemap_path.write_text(sitemap, encoding="utf-8")
     print(f"  ✓ {sitemap_path.name} 已生成")
 

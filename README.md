@@ -104,7 +104,7 @@ Andrej_Karpathy/
     └── update.sh  ← 自动拉取最新动态
 ```
 
-共 **28 个文件，1055 行**。全部是 Obsidian 兼容的 Markdown（`[[wikilink]]` 双向链接）。全部是 Obsidian 兼容的 Markdown（`[[wikilink]]` 双向链接）。全部是 Obsidian 兼容的 Markdown（`[[wikilink]]` 双向链接）。
+共 **28 个文件，1065 行**。全部是 Obsidian 兼容的 Markdown（`[[wikilink]]` 双向链接）。全部是 Obsidian 兼容的 Markdown（`[[wikilink]]` 双向链接）。全部是 Obsidian 兼容的 Markdown（`[[wikilink]]` 双向链接）。全部是 Obsidian 兼容的 Markdown（`[[wikilink]]` 双向链接）。
 
 ### 说明
 
