@@ -5,7 +5,7 @@ tags: [sitemap, navigation, index]
 
 # 🗺️ 站点地图
 
-> 本页由 `scripts/generate-sitemap.py` 自动生成 · 最后更新 2026-05-05 19:00
+> 本页由 `scripts/generate-sitemap.py` 自动生成 · 最后更新 2026-05-05 20:13
 
 ## 导航一览
 
@@ -35,6 +35,7 @@ Andrej_Karpathy/
 │   ├── LLM.c.md  ← LLM.c
 │   ├── autoresearch.md  ← autoresearch
 │   ├── hn-time-capsule.md  ← hn-time-capsule
+│   ├── karpathy-skills.md  ← Karpathy Skills（AI Agent 编程准则）
 │   ├── micrograd.md  ← micrograd
 │   ├── nanoGPT.md  ← nanoGPT
 │   ├── nanochat.md  ← nanochat
@@ -67,11 +68,11 @@ Andrej_Karpathy/
 
 | 指标 | 数值 |
 |------|------|
-| Markdown 文件数 | **28** |
-| 总行数 | **1020** |
+| Markdown 文件数 | **29** |
+| 总行数 | **1096** |
 | 目录数 | **7** |
-| 知识库大小 | **33 KB** |
-| 最后更新 | 2026-05-05 19:00 |
+| 知识库大小 | **36 KB** |
+| 最后更新 | 2026-05-05 20:13 |
 
 ## 维护说明
 

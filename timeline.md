@@ -13,7 +13,8 @@ tags: [index, timeline]
 
 | 日期 | 事件 | 分类 | 链接 |
 |------|------|------|------|
-| 2026-01 | [[rustbpe]] 开源 | project | [[profile/projects-index]] |
+| 2026-01-27 | [[projects/karpathy-skills|Karpathy Skills]] — AI Agent 编程准则发布（113K stars） | project | [[projects/karpathy-skills]] |
+| 2026-02 | [[rustbpe]] 开源 | project | [[profile/projects-index]] |
 | 2026-02 | "Claws" 概念提出 | social | [[social/2026-claws-concept]] |
 | 2026-03 | [[autoresearch]] 79K stars | project | [[projects/autoresearch]] |
 | 2026-03 | US Job Market Visualizer 发布 | project | [[projects/us-job-market]] |
