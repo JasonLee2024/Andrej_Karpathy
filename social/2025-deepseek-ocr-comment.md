@@ -1,5 +1,5 @@
 ---
-date: 2025-10
+date: 2025-10-15
 tags: [twitter, comment, OCR, multimodal]
 ---
 

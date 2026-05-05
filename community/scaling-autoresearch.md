@@ -1,5 +1,5 @@
 ---
-date: 2026-03
+date: 2026-03-15
 tags: [community, extension, skypilot, distributed]
 ---
 

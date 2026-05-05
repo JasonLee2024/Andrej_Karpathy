@@ -1,5 +1,5 @@
 ---
-date: 2025-12
+date: 2025-12-15
 tags: [HN, viral, reflection]
 hn_score: 549
 ---

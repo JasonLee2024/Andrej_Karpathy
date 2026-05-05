@@ -1,5 +1,5 @@
 ---
-date: 2024-12
+date: 2024-12-15
 tags: [blog, reflection, AI-history, founding-fathers]
 ---
 

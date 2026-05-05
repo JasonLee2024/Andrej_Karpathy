@@ -1,5 +1,5 @@
 ---
-date: 2025-05
+date: 2025-05-15
 tags: [talk, YC, startup, software-era]
 hn_score: 1481
 hn_comments: 783

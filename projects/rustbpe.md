@@ -1,5 +1,5 @@
 ---
-date: 2026-01
+date: 2026-01-15
 tags: [project, BPE, tokenizer, Rust]
 stars: 446
 language: Rust

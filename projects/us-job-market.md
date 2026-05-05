@@ -1,5 +1,5 @@
 ---
-date: 2026-03
+date: 2026-03-15
 tags: [project, visualization, data, jobs]
 repo: https://github.com/karpathy/US-Job-Market-Visualizer
 ---

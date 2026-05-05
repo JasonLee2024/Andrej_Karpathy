@@ -1,5 +1,5 @@
 ---
-date: 2025
+date: 2025-06-15
 tags: [podcast, interview, agents, predictions]
 ---
 
