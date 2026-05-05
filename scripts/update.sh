@@ -99,5 +99,9 @@ log "Generating summary..."
     fi
 } > "$KBASE/scripts/update_summary_$TODAY.md"
 
+# ── 5. Generate Sitemap + Sync Directory Tree ──
+log "Generating sitemap..."
+python3 scripts/generate-sitemap.py 2>&1 | tee -a "$LOGFILE"
+
 log "=== Karpathy KB Update Complete ==="
 log "Summary saved to scripts/update_summary_$TODAY.md"

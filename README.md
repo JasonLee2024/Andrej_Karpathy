@@ -64,33 +64,47 @@ Andrej Karpathy，AI 科学家、教育者。曾任 OpenAI 研究科学家、Tes
 
 ```
 Andrej_Karpathy/
-├── README.md              ← 首页导航 + 最近动态一览
-├── _config.yml            ← GitHub Pages 配置
-├── timeline.md            ← 综合时间线（2024-2026）
-├── profile/
-│   ├── bio.md             ← 履历：Stanford → OpenAI → Tesla → Eureka Labs
-│   └── projects-index.md  ← 63 仓库的索引表
-├── projects/
-│   ├── nanoGPT.md         ← GPT-2 教学标杆（47K stars）
-│   ├── nanochat.md        ← "$100 ChatGPT"（53K stars）
-│   ├── autoresearch.md    ← AI 自动做 AI 研究（79K stars）
-│   ├── LLM.c.md           ← 纯 C 语言 LLM
-│   ├── micrograd.md       ← 100 行自动求导
-│   ├── rustbpe.md         ← Rust BPE tokenizer
-│   ├── hn-time-capsule.md ← LLM 考古 HN
-│   └── us-job-market.md   ← BLS 数据可视化
-├── talks/
-│   ├── 2025-YC-AI-Startup-School.md  ← "Software in AI Era"（1481 pts）
-│   ├── 2025-Dwarkesh-Podcast.md       ← "10 years to solve Agents"
-│   └── 2025-never-felt-behind.md      ← HN 549 pts 热帖
-├── social/                ← X/Twitter 观点精选
-├── community/             ← 社区衍生项目
-├── blog/                  ← 博客摘要
-└── scripts/
-    └── update.sh          ← 自动拉取 GitHub/HN/X 的最新动态
+├── README.md  ← 首页导航 + 最近动态一览
+├── _config.yml  ← GitHub Pages 配置
+├── sitemap.md  ← 🗺️ 站点地图（自动生成）
+├── timeline.md  ← 综合时间线
+├── profile/  ← 个人简介、履历、平台索引
+│   ├── bio.md  ← 个人履历
+│   ├── platforms-index.md  ← 全平台索引
+│   └── projects-index.md  ← 项目索引表
+├── projects/  ← 核心开源项目详解
+│   ├── LLM.c.md  ← LLM.c
+│   ├── autoresearch.md  ← autoresearch
+│   ├── hn-time-capsule.md  ← hn-time-capsule
+│   ├── micrograd.md  ← micrograd
+│   ├── nanoGPT.md  ← nanoGPT
+│   ├── nanochat.md  ← nanochat
+│   ├── rustbpe.md  ← rustbpe
+│   └── us-job-market.md  ← US Job Market Visualizer
+├── talks/  ← 演讲、访谈、播客
+│   ├── 2025-Dwarkesh-Podcast.md  ← Dwarkesh Podcast: "10 years to solve ...
+│   ├── 2025-YC-AI-Startup-School.md  ← YC AI Startup School: "Software in th...
+│   ├── 2025-never-felt-behind.md  ← "Never felt this much behind"
+│   └── 2026-sequoia-ai-ascent-agentic-engineering.md  ← Sequoia AI Ascent 2026: From Vibe Cod...
+├── social/  ← X/Twitter 观点精选
+│   ├── 2025-agent-decade.md  ← "10 years to solve Agents"
+│   ├── 2025-deepseek-ocr-comment.md  ← DeepSeek-OCR 评论："Are pixels better th...
+│   ├── 2025-programming-behind.md  ← Programming is 99% behind
+│   └── 2026-claws-concept.md  ← "Claws" 概念
+├── community/  ← 社区衍生项目 & 讨论
+│   ├── auto-architecture-cpu.md  ← Auto-Architecture: Karpathy's Loop (C...
+│   ├── hn-llm-visual-guide.md  ← "How LLMs Work" 视觉指南 (HN)
+│   ├── karpathy-llm-wiki.md  ← Karpathy-style LLM Wiki
+│   ├── micrograd-ports.md  ← micrograd 社区语言移植
+│   └── scaling-autoresearch.md  ← Scaling Karpathy's Autoresearch (SkyP...
+├── blog/  ← 博客文章摘要
+│   └── 2024-founding-fathers.md  ← Founding Fathers of AI (2024-12)
+└── scripts/  ← 自动化维护脚本
+    ├── generate-sitemap.py  ← 站点地图生成器
+    └── update.sh  ← 自动拉取最新动态
 ```
 
-共 **27 个文件，744 行**。全部是 Obsidian 兼容的 Markdown（`[[wikilink]]` 双向链接）。
+共 **28 个文件，1055 行**。全部是 Obsidian 兼容的 Markdown（`[[wikilink]]` 双向链接）。全部是 Obsidian 兼容的 Markdown（`[[wikilink]]` 双向链接）。全部是 Obsidian 兼容的 Markdown（`[[wikilink]]` 双向链接）。
 
 ### 说明
 
