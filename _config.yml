@@ -1,0 +1,11 @@
+# _config.yml — GitHub Pages 配置
+title: "Karpathy 知识库"
+description: "Andrej Karpathy 项目、演講、观点——结构化跟踪"
+theme: jekyll-theme-minimal
+markdown: kramdown
+show_downloads: true
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
