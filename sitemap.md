@@ -1,11 +1,11 @@
 ---
-date: 2026-05-05
+date: 2026-05-11
 tags: [sitemap, navigation, index]
 ---
 
 # 🗺️ 站点地图
 
-> 本页由 `scripts/generate-sitemap.py` 自动生成 · 最后更新 2026-05-05 20:13
+> 本页由 `scripts/generate-sitemap.py` 自动生成 · 最后更新 2026-05-11 10:20
 
 ## 导航一览
 
@@ -45,7 +45,8 @@ Andrej_Karpathy/
 │   ├── 2025-Dwarkesh-Podcast.md  ← Dwarkesh Podcast: "10 years to solve ...
 │   ├── 2025-YC-AI-Startup-School.md  ← YC AI Startup School: "Software in th...
 │   ├── 2025-never-felt-behind.md  ← "Never felt this much behind"
-│   └── 2026-sequoia-ai-ascent-agentic-engineering.md  ← Sequoia AI Ascent 2026: From Vibe Cod...
+│   ├── 2026-sequoia-ai-ascent-agentic-engineering.md  ← Sequoia AI Ascent 2026: From Vibe Cod...
+│   └── 2026-sequoia-ai-ascent-cognitive-sovereignty.md  ← 智能外包时代的认知主权：从 Karpathy 的代理解构到唯识学妙观察智的...
 ├── social/  ← X/Twitter 观点精选
 │   ├── 2025-agent-decade.md  ← "10 years to solve Agents"
 │   ├── 2025-deepseek-ocr-comment.md  ← DeepSeek-OCR 评论："Are pixels better th...
@@ -68,11 +69,11 @@ Andrej_Karpathy/
 
 | 指标 | 数值 |
 |------|------|
-| Markdown 文件数 | **29** |
-| 总行数 | **1096** |
+| Markdown 文件数 | **30** |
+| 总行数 | **1191** |
 | 目录数 | **7** |
-| 知识库大小 | **36 KB** |
-| 最后更新 | 2026-05-05 20:13 |
+| 知识库大小 | **41 KB** |
+| 最后更新 | 2026-05-11 10:20 |
 
 ## 维护说明
 

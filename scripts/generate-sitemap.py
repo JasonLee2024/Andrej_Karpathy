@@ -248,9 +248,9 @@ def replace_tree_in_readme(readme_path: Path, new_tree: str, stats: dict) -> boo
     """Replace the tree section in README.md with a sitemap link. Returns True if changed."""
     content = readme_path.read_text(encoding="utf-8")
 
-    # Remove the entire "## 目录结构" section (tree block + description line)
+    # Case 1: Old format with code block — full tree still in README
     old_section = re.search(
-        r"## 目录结构\n\n```\n.*?\n```\n\n共 \*\*\d+ 个文件，\d+ 行\*\*。",
+        r"## 目录结构\n\n```\n.*?```\n\n共 \*\*\d+ 个文件，\d+ 行\*\*。",
         content,
         re.DOTALL,
     )
@@ -263,15 +263,28 @@ def replace_tree_in_readme(readme_path: Path, new_tree: str, stats: dict) -> boo
     if old_section:
         new_content = content.replace(old_section.group(0), new_section)
     else:
-        # Try to find a simpler tree section
+        # Case 2: Old code block without stats line
         old_simple = re.search(r"## 目录结构\n\n```\n.*?\n```", content, re.DOTALL)
         if old_simple:
             new_content = content.replace(
                 old_simple.group(0),
-                f"## 目录结构\n\n完整文件列表请见 [[sitemap|🗺️ 站点地图]]。",
+                f"## 目录结构\n\n完整文件列表请见 [[sitemap|🗺️ 站点地图]]。\n共 **{stats['files']} 个文件，{stats['lines']} 行**。",
             )
         else:
-            return False
+            # Case 3: Already migrated — no code block, just update stats
+            stats_line = re.search(
+                r"共 \*\*(\d+) 个文件，(\d+) 行\*\*。",
+                content,
+            )
+            if stats_line:
+                old_stats = stats_line.group(0)
+                new_stats = f"共 **{stats['files']} 个文件，{stats['lines']} 行**。"
+                if old_stats != new_stats:
+                    new_content = content.replace(old_stats, new_stats)
+                else:
+                    return False
+            else:
+                return False
 
     if new_content != content:
         readme_path.write_text(new_content, encoding="utf-8")
