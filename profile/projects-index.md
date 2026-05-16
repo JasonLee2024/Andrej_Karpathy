@@ -1,7 +1,7 @@
----
-date: 2026-05-05
-tags: [projects, index]
----
+| 属性 | 值 |
+|------|-----|
+| date | 2026-05-05 |
+| tags | [projects, index] |
 
 # Andrej Karpathy GitHub 仓库索引
 
@@ -13,7 +13,7 @@ tags: [projects, index]
 
 | 项目 | Stars | 语言 | 最新更新 | 描述 |
 |------|-------|------|----------|------|
-| [[autoresearch]] | 79K | Python | 2026-03 | AI agent 自动做 nanochat 训练研究 |
+| [[autoresearch]] | 79K | Python | 2026-03-07 | 630行自主ML研究框架：Agent循环修改代码→训练→评估→保留 |
 | [[nanochat]] | 53K | Python | 2026-04-14 | "$100 能买到的最好 ChatGPT" |
 | [[nanoGPT]] | 47K | Python | 2025 | 最快/最简 GPT-2 训练/微调 |
 | [[LLM.c]] | ~30K | C | 2025 | 纯 C 语言 LLM 训练推理 |

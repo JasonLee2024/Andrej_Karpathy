@@ -27,6 +27,7 @@ Andrej Karpathy，AI 科学家、教育者。曾任 OpenAI 研究科学家、Tes
 > "I am not one thing. I am a teacher, a researcher, an engineer, and a builder." — Karpathy
 
 代表作：
+
 - [[nanoGPT]] — 极简 GPT-2 实现（47K+ stars）
 - [[nanochat]] — "$100 能买到的最好 ChatGPT"
 - [[autoresearch]] — AI 自动做 AI 研究（79K+ stars）
@@ -42,6 +43,7 @@ Andrej Karpathy，AI 科学家、教育者。曾任 OpenAI 研究科学家、Tes
 | 2026-04-28 | [[autoresearch]] HN 热帖 "Auto-Architecture: Karpathy's Loop" | [[autoresearch]] |
 | 2026-04-25 | "Karpathy-style LLM wiki"（[[llm-wiki]]）HN 260 pts | [[llm-wiki]] |
 | 2026-04-14 | [[nanochat]] 发布 — 53K stars | [[nanochat]] |
+| 2026-03-07 | [[autoresearch]] 开源 — 630 行代码实现自主 ML 研究闭环，276 次实验 / 29 项改进 | [[autoresearch]] |
 | 2026-03 | US Job Market Visualizer 工具发布 | [[us-job-market]] |
 | 2026-03 | SkyPilot "Scaling Karpathy's Autoresearch"（79K stars）| [[autoresearch]] |
 | 2026-01 | [[rustbpe]] 开源 — BPE 的 Rust 实现 | [[rustbpe]] |
@@ -63,7 +65,7 @@ Andrej Karpathy，AI 科学家、教育者。曾任 OpenAI 研究科学家、Tes
 ## 目录结构
 
 完整文件列表请见 [[sitemap|🗺️ 站点地图]]。
-共 **30 个文件，1191 行**。
+共 **30 个文件，1243 行**。
 
 ### 说明
 

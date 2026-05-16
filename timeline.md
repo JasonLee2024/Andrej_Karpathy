@@ -1,7 +1,7 @@
----
-date: 2026-05-05
-tags: [index, timeline]
----
+| 属性 | 值 |
+|------|-----|
+| date | 2026-05-05 |
+| tags | [index, timeline] |
 
 # 综合时间线
 
@@ -16,7 +16,7 @@ tags: [index, timeline]
 | 2026-01-27 | [[projects/karpathy-skills|Karpathy Skills]] — AI Agent 编程准则发布（113K stars） | project | [[projects/karpathy-skills]] |
 | 2026-02 | [[rustbpe]] 开源 | project | [[profile/projects-index]] |
 | 2026-02 | "Claws" 概念提出 | social | [[social/2026-claws-concept]] |
-| 2026-03 | [[autoresearch]] 79K stars | project | [[projects/autoresearch]] |
+| 2026-03-07 | [[autoresearch]] 开源 — 630行代码实现自主ML研究闭环，79K stars | project | [[projects/autoresearch]] |
 | 2026-03 | US Job Market Visualizer 发布 | project | [[projects/us-job-market]] |
 | 2026-03 | SkyPilot Scaling Autoresearch | community | [[community/scaling-autoresearch]] |
 | 2026-04-14 | [[nanochat]] 发布 → 53K stars | project | [[projects/nanochat]] |
