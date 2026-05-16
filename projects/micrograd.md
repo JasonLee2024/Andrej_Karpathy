@@ -1,10 +1,10 @@
----
-date: 2025-01-01
-tags: [project, autograd, education, math]
-stars: 12K
-language: Python
-repo: https://github.com/karpathy/micrograd
----
+| 属性 | 值 |
+|------|-----|
+| date | 2025-01-01 |
+| tags | [project, autograd, education, math] |
+| stars | 12K |
+| language | Python |
+| repo | https://github.com/karpathy/micrograd |
 
 # micrograd
 
@@ -31,6 +31,6 @@ micrograd 用约 100 行 Python 代码实现了 PyTorch 中 autograd 的核心�
 
 ## 关联
 
-- [[nanoGPT]] — 更高级的应用
-- [[LLM.c]] — C 语言版教学项目
-- [[community/micrograd-ports]] — 社区移植
+- [nanoGPT](nanoGPT.md) — 更高级的应用
+- [LLM.c](LLM.c.md) — C 语言版教学项目
+- [社区语言移植](../community/micrograd-ports.md) — 社区移植

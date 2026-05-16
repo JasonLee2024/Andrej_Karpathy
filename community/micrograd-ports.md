@@ -1,11 +1,11 @@
----
-date: 2025-06-15
-tags: [community, ports, rust, go, js]
----
+| 属性 | 值 |
+|------|-----|
+| date | 2025-06-15 |
+| tags | [community, ports, rust, go, js] |
 
 # micrograd 社区语言移植
 
-> 社区用 Rust、Go、JavaScript、C++、Julia 等语言移植了 [[micrograd]]。
+> 社区用 Rust、Go、JavaScript、C++、Julia 等语言移植了 [micrograd](../projects/micrograd.md)。
 
 ## 代表性移植
 

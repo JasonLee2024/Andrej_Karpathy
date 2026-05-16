@@ -1,10 +1,10 @@
----
-date: 2026-01-15
-tags: [project, BPE, tokenizer, Rust]
-stars: 446
-language: Rust
-repo: https://github.com/karpathy/rustbpe
----
+| 属性 | 值 |
+|------|-----|
+| date | 2026-01-15 |
+| tags | [project, BPE, tokenizer, Rust] |
+| stars | 446 |
+| language | Rust |
+| repo | https://github.com/karpathy/rustbpe |
 
 # rustbpe
 
@@ -30,5 +30,5 @@ Karpathy 用 Rust 实现的 BPE（Byte Pair Encoding）tokenizer。目前只有�
 
 ## 关联
 
-- [[nanoGPT]] — tokenizer 的上游使用者
-- [[llm-wiki]] — tokenizer 相关知识点
+- [nanoGPT](nanoGPT.md) — tokenizer 的上游使用者
+- llm-wiki — tokenizer 相关知识点

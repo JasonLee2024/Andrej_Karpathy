@@ -1,8 +1,8 @@
----
-date: 2026-04-25
-tags: [community, wiki, LLM, education]
-hn_score: 260
----
+| 属性 | 值 |
+|------|-----|
+| date | 2026-04-25 |
+| tags | [community, wiki, LLM, education] |
+| hn_score | 260 |
 
 # Karpathy-style LLM Wiki
 
@@ -14,5 +14,5 @@ hn_score: 260
 
 ## 关联
 
-- [[llm-wiki]] — Karpathy 原版
-- [[nanoGPT]] — 教学核心
+- llm-wiki — Karpathy 原版
+- [nanoGPT](../projects/nanoGPT.md) — 教学核心

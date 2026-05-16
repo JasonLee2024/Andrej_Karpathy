@@ -1,10 +1,10 @@
----
-date: 2026-04-14
-tags: [project, LLM, chatbot, 100-dollar]
-stars: 53K
-language: Python
-repo: https://github.com/karpathy/nanochat
----
+| 属性 | 值 |
+|------|-----|
+| date | 2026-04-14 |
+| tags | [project, LLM, chatbot, 100-dollar] |
+| stars | 53K |
+| language | Python |
+| repo | https://github.com/karpathy/nanochat |
 
 # nanochat
 
@@ -34,5 +34,5 @@ nanochat 是 Karpathy 在 2026 年 4 月发布的现象级项目。目标是用 
 
 ## 关联项目
 
-- [[nanoGPT]] — 基础架构
-- [[autoresearch]] — AI agent 自动优化 nanochat 训练
+- [nanoGPT](nanoGPT.md) — 基础架构
+- [autoresearch](autoresearch.md) — AI agent 自动优化 nanochat 训练
